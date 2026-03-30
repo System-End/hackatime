@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class HcaTokenExchangeService
+class HCATokenExchangeService
   class ExchangeError < StandardError; end
   class UserTokenExpiredError < ExchangeError; end
   class DeniedError < ExchangeError; end
