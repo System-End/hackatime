@@ -10,7 +10,7 @@ module OauthAuthentication
         redirect_uri:,
         client_id: ENV["HCA_CLIENT_ID"],
         response_type: "code",
-        scope: "email slack_id verification_status"
+        scope: "email slack_id verification_status theseus:send_mail"
       }
 
       URI.parse("#{HCAService.host}/oauth/authorize?#{params.to_query}")
