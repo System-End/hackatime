@@ -23,7 +23,6 @@ RUN apt-get update -qq && \
     sqlite3 \
     libpq5 \
     unzip \
-    vim \
     wget && \
     rm -rf /var/lib/apt/lists /var/cache/apt/archives
 
