@@ -1,1 +1,2 @@
-FROM ghcr.io/system-end/hackatime:latest
+ARG OWNER=system-end
+FROM ghcr.io/${OWNER}/hackatime:latest
